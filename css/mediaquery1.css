@@ -1,0 +1,6 @@
+.container{
+    flex-direction:column;
+}
+.intro{
+    height:auto;
+}

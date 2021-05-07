@@ -1,0 +1,17 @@
+
+nav{
+    display:none;
+    height:100%;
+}
+section{
+    padding:0;
+}
+ul li{display:block}
+.intro{
+    height:auto;
+}
+.mockups{
+    display:flex;
+    flex-wrap: nowrap;
+    overflow:hidden;
+}

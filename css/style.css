@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+:root {
+    --primary :#ff8303;
+    --green : #50DE89;
+    --yellow : #FFDA7A;
+    --darkgreen: #A1ECBF;
+    --bgcolor: #f8f5f1;
+    --grey: #444444;
+    --red: #F91941;
+    --text_color: #2b2e4a;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+section{
+    height:100vh;
+    background-color:#eeeeee;
+    padding-top:5rem;
+}
+.intro{
+    padding:0;
+    height:auto;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.logo{
+    padding-left:2rem;
+}
+.tag-line{
+    margin-left:10px;
+}
+nav {
+    height:3rem;
+    background-color:var(--primary);
+    width:100%;
+    font-size:1rem;
+    display:flex;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    font-family:'Poppins',cursive;
+}
+nav .logo{
+    padding-right:2rem;
+    padding-top:0.5rem;
+}
+ul li{
+    list-style-type:none;
+    display:inline-block;
+    padding-right:2rem;
+    padding-top:0.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    padding:4px;
+    transition:all 0.1s ease;
+}
+
+ul li a:hover{
+    color:white;
+    border-bottom:2px solid yellow;
+}
+.intro h1{
+    text-align: center;
+    font-size:5rem;
+    padding-left:2.5rem;
+    font-family:'Pacifico',sans-serif;   
+    font-weight:50;
+}
+.intro span{
+    text-align: center;
+    font-family:'Itim',sans-serif;   
+    font-weight:50;
+    font-size: 1rem;
+    padding-left:2rem;
+}
+
+.tag-line a{
+    text-decoration: none;
+    color:var(--red);
+    font-weight:100;
+    font-size:1.5rem;
+    font-family:'PACIFICO',cursive;
+}
+.link span{
+    padding:1rem;
+}
+.link{
+    width:fit-content;
+    border:2px solid black;
+    border-radius:2rem; 
+}
+.link:hover{
+    background-color:var(--red);
+    border:2px solid white; 
+}
+.link:hover a{
+    color:white;
+}
+
+.intro img{
+    height:200px;
+    width:200px;
+}
+.intro .mockups  img{
+    height:500px;
+    width:250px;
+}
+
+footer{
+    background-color:var(--grey);
+    height:auto;
+    color:var(--bgcolor);
+    font-family: 'Dancing Script', cursive;
+    font-size:2rem;
+    padding:1rem;
+}
+#about{
+    position:inherit;
+    display:flex;
+    flex-direction:row;
+    padding:9rem;
+    justify-content: space-between;
+}
+#about .card1{
+    display:flex;
+    flex-direction:column;
+    border-radius:2rem;
+    padding:2rem;
+    box-shadow:0px 0px 1px 2px grey;
+}
+#about .card1:hover{
+    box-shadow:0px 0px 5px 5px grey;
+}
+#about .card1 .Name{
+    text-align: center;
+    font-size:2rem;
+}
+#about .card1 .photo{
+    height:250px;
+    width:250px;
+    background-image: url('../images/cool-guy-crossing-road.png');
+    background-size: cover;
+}
