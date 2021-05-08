@@ -1,6 +1,14 @@
 .container{
     flex-direction:column;
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
 .intro{
-    height:auto;
+    height:100%;
+}
+.mockups{
+    display: none;
+}
+.navbar-logo{
+    display:none;
 }

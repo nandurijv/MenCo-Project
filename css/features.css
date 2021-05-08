@@ -1,0 +1,90 @@
+/*Features*/
+#services-container{
+    height: auto;
+    width: 100%;
+    margin:0px;
+    background-color: #f8f5f1;
+}
+
+.main-h {
+
+}
+#services-container p{
+    text-align: center;
+    font-size: large;
+}
+#services-container h1{
+    text-align: center;
+}
+#why{
+    display: flex;
+  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  height: auto;
+  margin-bottom: 2rem;
+}
+.what{
+  background-color: #f8f5f1;
+  height: auto;
+    width: 100%;
+}
+
+
+.card{
+
+   border-radius: 2rem;
+   padding: 2rem;
+   box-shadow: 0px 0px 5px 2px grey;
+   margin: 2rem;
+}
+
+#services-container {
+  height: auto;
+}
+
+#Services {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  height: auto;
+  padding: 2rem;
+}
+.box {
+  width: 320px;
+  height: auto;
+  padding: 40px 30px;
+  background: #f6f5f5;
+  border-radius: 40px;
+  box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
+    6px 6px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.box:hover {
+  box-shadow: inset -6px -6px 20px rgba(255, 255, 255, 0.5),
+    inset 6px 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+
+/*About Us*/
+
+#about-us{
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+
+
+.profile{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+

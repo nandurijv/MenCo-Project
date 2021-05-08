@@ -1,70 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mediaquery1.css" media="screen and (max-width:1220px)">
-    <link rel="stylesheet" href="css/mediaquery2.css" media="screen and (max-width:780px)">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="css/mediaquery1.css"
+      media="screen and (max-width:1220px)"
+    />
+    <link
+      rel="stylesheet"
+      href="css/mediaquery2.css"
+      media="screen and (max-width:780px)"
+    />
+    <link rel="stylesheet" href="/css/features.css" />
+    <link rel="stylesheet" href="/css/features1.css" />
+
     <title>MenCo</title>
-</head>
-<body>
-    <nav>
-        <div class="logo">
-            Logo
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <header id="navbar">
+      <nav class="navbar-container container">
+        <a href="/" class="home-link">
+          <div class="navbar-logo"></div>
+          MenCo
+        </a>
+        <button
+          type="button"
+          class="navbar-toggle"
+          aria-label="Open navigation menu"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-menu" style="padding:0;" >
+          <ul class="navbar-links">
+            <li class="navbar-item">
+              <a class="navbar-link" href="#intro">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#services-container">Features</a>
+            </li>
+            <li class="navbar-item" style="width: 100px">
+              <a class="navbar-link" href="#about-us">Contact</a>
+            </li>
+          </ul>
         </div>
-        <div class="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#about">About Us</a></li>
-            </ul>
-        </div>
-    </nav>
+      </nav>
+    </header>
+
+    <!--Intro-->
     <section class="intro" id="intro">
-        <div class="container">
+      <div class="container">
         <div class="tag-line">
-        <h1>MenCo</h1><center>
-        <span>SUPPORTING YOU AND YOUR HEALTH</span><br><span>DURING PANDEMIC</span></center>
-        <center><img src="images/heart.png"></center>
-        <center>
-        <div class="link"><a href=""><span style="font-size:2rem">DOWNLOAD OUR APP HERE</span></a></div>
-        </center>
+          <h1>MenCo</h1>
+          <center>
+            <span>SUPPORTING YOU AND YOUR HEALTH</span><br /><span
+              >DURING PANDEMIC</span
+            >
+          </center>
+          <center><img src="../images/heart.png" /></center>
+          <center>
+            <div class="link">
+              <a href=""
+                ><span style="font-size: 2rem"
+                  >Download Our App
+                  <img
+                    src="https://img.icons8.com/android/24/000000/download.png"
+                    style="height: 20px; width: 20px" /></span
+              ></a>
+            </div>
+          </center>
         </div>
-        <div class='mockups'>
+        <div class="mockups">
+          <center>
+            <img src="../images/mockup1.png" />
+            <img
+              src="../images/mockup2.png"
+            />
+          </center>
+        </div>
+      </div>
+    </section>
+
+    <!--Features-->
+
+    <section id="services-container">
+      <h1
+        class="main-h"
+        style="text-align: center; font-size: 2rem; padding: 2rem"
+      >
+        Why use MenCo?
+      </h1>
+      <div id="why">
+        <div class="card" style="width: 18rem">
+          <center>
+            <img src="https://img.icons8.com/cute-clipart/64/000000/shop.png" />
+          </center>
+          <div class="card-body">
+            <h1>One-Stop Shop</h1>
+            <p class="card-text">
+              Don’t waste hours searching. Get help fast with our database of
+              volunteers.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <center>
+            <img
+              src="https://img.icons8.com/dusk/64/000000/checked-2--v1.png"
+            />
+          </center>
+          <div class="card-body">
+            <h1>Easily Available</h1>
+            <p class="card-text">
+              Use our app on the go from any mobile device, tablet, or desktop.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <center>
+            <img
+              src="https://img.icons8.com/dusk/50/000000/no-credit-cards.png"
+              style="margin-bottom: 16px"
+            />
+          </center>
+          <div class="card-body">
+            <h1>Completely Free</h1>
+            <p class="card-text">
+              No subscriptions or hidden fees. You can browse and post for free.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="what" style="margin-bottom: 0%">
+        <h1 style="text-align: center; font-size: 2rem">
+          What does the App do?
+        </h1>
+        <div id="Services">
+          <div class="box">
             <center>
-                <img src="images/image3_samsung-galaxys20-cloudblue-portrait.png">
-                <img src="images/image2_samsung-galaxys20-cloudblue-portrait.png">
-                <img src="images/image1_samsung-galaxys20-cloudblue-portrait.png">
+              <img src="https://img.icons8.com/dusk/64/000000/hint.png"/ >
             </center>
-         </div>
+            <h1 style="text-align: center">Recommendations</h1>
+            <p style="text-align: center">
+              Colour ablecontrast between text and background is important on
+              web pages. It affects some people’s ability to perceive the
+              information (in other words to be to receive the information
+              visually).
+            </p>
+          </div>
+          <div class="box">
+            <center>
+              <img src="https://img.icons8.com/dusk/64/000000/hand.png" />
+            </center>
+            <h1 style="text-align: center">Volunteer</h1>
+            <p>
+              Colour contrast between text and background is important on web
+              pages. It affects some people’s ability to perceive the
+              information (in other words to be able to receive the information
+              visually).
+            </p>
+          </div>
+          <div class="box">
+            <center>
+              <img
+                src="https://img.icons8.com/dusk/64/000000/enterprise-resource-planning.png"
+              />
+            </center>
+            <h1 style="text-align: center">Resources</h1>
+            <p>
+              Colour contrast between text and background is important on web
+              pages. It affects some people’s ability to perceive the
+              information (in other words to be able to receive the information
+              visually).
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section id="features">
+    <!--About Us-->
+    <section id="about-us">
+      <h1 style="text-align: center; margin-bottom: 0%; font-size: 2rem">
+        About Us
+      </h1>
+      <div class="profile">
+        <div class="box-container">
+          <div class="card">
+            <div class="social">
+              <a class="fab fa-facebook" href="#"
+                ><img
+                  src="https://img.icons8.com/ios-glyphs/26/000000/instagram-new.png"
+              /></a>
+              <a class="fab fa-linkedin" href="#"
+                ><img src="https://img.icons8.com/metro/24/000000/linkedin.png"
+              /></a>
+              <a
+                class="fab fa-github"
+                href="https://github.com/alok27a"
+                target="_blank"
+                ><img
+                  src="https://img.icons8.com/ios-glyphs/26/000000/github.png"
+              /></a>
+            </div>
+            <div class="pic">
+              <img src="../images/Alok photo 2.jpeg" />
+            </div>
+            <div class="content">
+              <h3 class="title">Alok Mathur</h3>
+              <span>Front-end Web Developer</span>
+              <p style="color: black; font-weight: 200; font-size: 1rem">
+              I am coding enthusiast👨‍💻Always keen to learn new things📚
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box-container">
+          <div class="card">
+            <div class="social">
+              <a
+                class="fab fa-facebook"
+                href="https://www.instagram.com/prasoonsoni/"
+                target="_blank"
+                ><img
+                  src="https://img.icons8.com/ios-glyphs/26/000000/instagram-new.png"
+              /></a>
+              <a
+                class="fab fa-linkedin"
+                href="https://www.linkedin.com/in/prasoonsoni/"
+                target="_blank"
+                ><img src="https://img.icons8.com/metro/24/000000/linkedin.png"
+              /></a>
+              <a
+                class="fab fa-github"
+                href="https://github.com/prasoonsoni"
+                target="_blank"
+                ><img
+                  src="https://img.icons8.com/ios-glyphs/26/000000/github.png"
+              /></a>
+            </div>
+            <div class="pic">
+              <img src="../images/prasoon.jpg" />
+            </div>
+            <div class="content">
+              <h3 class="title">Prasoon Soni</h3>
+              <span>Android App Developer</span>
+              <p style="color: black; font-weight: 200; font-size: 1rem">
+              Eat🍕  Sleep😴<br>
+              Code👨‍💻  Repeat🔁<br>
+              
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box-container">
+          <div class="card">
+            <div class="social">
+              <a
+                class="fab fa-facebook"
+                href="https://www.instagram.com/n_vjaybhava/"
+                target="_blank"
+                ><img
+                  src="https://img.icons8.com/ios-glyphs/26/000000/instagram-new.png"
+              /></a>
+              <a
+                class="fab fa-linkedin"
+                href="https://www.linkedin.com/in/jayant-vishnu-nanduri-55445520a"
+                target="_blank"
+                ><img src="https://img.icons8.com/metro/24/000000/linkedin.png"
+              /></a>
+              <a
+                class="fab fa-github"
+                href="https://github.com/nandurijv"
+                target="_blank"
+                ><img
+                  src="https://img.icons8.com/ios-glyphs/26/000000/github.png"
+              /></a>
+            </div>
+            <div class="pic">
+              <img
+                src="../images/vishnu.jpeg"
+                
+              />
+            </div>
+            <div class="content">
+              <h3 class="title">Nanduri Jayant Vishnu</h3>
+              <span>Web Developer</span>
+              <p style="color: black; font-weight: 200; font-size: 1rem">
+                Fascinating
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="about">
-        <!--<div class="card1">
-            <div class="photo">
-            </div>
-            <div class="Name">Jayant Vishnu Nanduri</div>
-            <div class="overlay-text">FRONT-END WEB DEVELOPER</div>
-        </div>
-        <div class="card1">
-            <div class="photo">
-            </div>
-            <div class="Name">Prasoon Soni</div>
-        </div>
-        <div class="card1">
-            <div class="photo">
-            </div>
-            <div class="Name">Alok Mathur</div>
-        </div>-->
-    </section>
-    <footer>
-        <center><span>All Copyrights belong to team P.A.R.V.</span></center>
+    <footer style="margin-bottom: 0%">
+      <center><span>All Copyrights belong to team P.A.R.V.</span></center>
     </footer>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>

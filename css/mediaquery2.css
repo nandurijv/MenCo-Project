@@ -7,11 +7,24 @@ section{
     padding:0;
 }
 ul li{display:block}
-.intro{
-    height:auto;
-}
+
 .mockups{
     display:flex;
     flex-wrap: nowrap;
     overflow:hidden;
+}
+#intro{
+    margin: 0%;
+    padding-right: 26px;
+    padding-top: 40px;
+}
+.intro h1{
+    padding: 0%;
+}
+.mockups{
+    display: none;
+}
+.container .tag-line{
+    padding-top: 3rem;
+    padding-left: 1rem;
 }

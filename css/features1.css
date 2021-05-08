@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script|Ubuntu');
+ 
+/*%%%%%%%%%%%%% %% VARIABLES %% %%%%%%%%%%%%%*/
+/*%% First Color %%*/
+/*%% Second Color %%*/
+/*%% Social Icons Color %%*/
+/*%% Box background color %%*/
+ .box-container {
+	 height:auto;
+	 align-items: center;
+  
+	z-index: 1;
+	/*%%%%%%%% %% CARD %% %%%%%%%%*/
+	/*%% End card %%*/
+}
+ .box-container .card {
+	 position: relative;
+	 width: 300px;
+	 height: 450px;
+	 border-radius: 10px;
+	 overflow: hidden;
+	 background: #f5f6fa;
+	 box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+ .box-container .card:before {
+	 content: '';
+	 position: absolute;
+	 display: block;
+	 width: 100%;
+	 height: 0;
+	 
+	 transition: all 0.5s ease;
+}
+ .box-container .card:hover {
+	background-color: #f39f86;
+background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+	/*%% Card on hover %%*/
+}
+ .box-container .card:hover:before {
+	 height: 180px;
+}
+ .box-container .card:hover .social {
+	 margin-top: 50px;
+}
+ .box-container .card:hover .pic {
+	 width: 120px;
+	 height: 120px;
+	 margin-top: 50px;
+	 box-shadow: 0px 0px 10px 1px #888;
+}
+ .box-container .card:hover .content {
+	 margin-top: 90px;
+}
+ .box-container .card .social {
+	 position: absolute;
+	 top: 0;
+	 left: 50%;
+	 transform: translateX(-50%);
+	 width: 100%;
+	 height: 0;
+	 margin-top: -30px;
+	 text-align: center;
+	 transition: margin-top 0.5s ease;
+}
+ .box-container .card .social a {
+	 text-decoration: none;
+	 color: #2d3436;
+	 padding: 8px;
+	 font-size: 18px;
+	 color: #fff;
+}
+ .box-container .card .pic {
+	 position: relative;
+	 left: 50%;
+	 top: 15%;
+	 transform: translateX(-50%);
+	 width: 140px;
+	 height: 140px;
+	 overflow: hidden;
+	 transition: all 0.5s ease;
+	 border-radius: 50%;
+	 background: #fff;
+}
+ .box-container .card .pic img {
+	 width: 100%;
+	 height: 100%;
+	 border-radius: 50%;
+}
+ .box-container .card .content {
+	 margin-top: 90px;
+	 text-align: center;
+	 padding: 0 30px;
+	 color: #2d3436;
+	 transition: margin-top 0.5s ease;
+}
+ .box-container .card .content .title {
+	 margin-bottom: 0;
+	 font-family: 'Marck Script', cursive;
+	 font-size: 22px;
+}
+ .box-container .card .content span {
+	 font-size: 12px;
+	 letter-spacing: 1.5px;
+}
+ .box-container .card .content p {
+	 margin: 20px 0;
+	 font-size: 12px;
+	 line-height: 1.6;
+	 color: #b0b0b0;
+}
+/*%% End container %%*/
+ 
