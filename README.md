@@ -17,9 +17,15 @@ No such platforms have ever been made which provide trusted statistics as well a
 </p>
 
 ### Problem Solution💡:
-<p>
 
-</p>
+### Recent advent of SARS Cov-2 has brought up many new challenges like 
+- Finding reliable data
+- No/less communication between helpers and those who need help
+- Increase in health problems like stress, anxiety, loneliness, claustrophobia and what not?!
+- Spreading of misinformation 
+
+
+
 
 ### Novelty📕:
 <p>
