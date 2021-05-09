@@ -61,10 +61,6 @@ We have also come up with a website that highlights the features of our Applicat
 <img src="https://media.discordapp.net/attachments/830729033653289001/840480147378667540/Screenshot_20210508-121611_MenCo.jpg?width=320&height=669">
 
 
-### Conclusion 🔍:
-<p>
-  
-</p>
 
 ### Credits 💳:
 - Emojipedia
