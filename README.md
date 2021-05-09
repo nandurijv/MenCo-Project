@@ -1,3 +1,4 @@
+
 # MenCo
 ### Team Members👨🏻‍💻:
 1. Alok Mathur
@@ -18,7 +19,7 @@ No such platforms have ever been made which provide trusted statistics as well a
 
 ### Installation Instruction
 <p>
-Download the app by unzipping the file [App-apk.zip](here)
+Download the app by unzipping the file [App-apk.zip](https://github.com/alok27a/MenCo-Project/files/6446870/App-apk.zip)
 </p>
 
 
