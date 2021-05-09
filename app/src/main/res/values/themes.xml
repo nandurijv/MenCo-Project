@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CoviHelp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimaryVariant">@color/orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="ToolbarTitle">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="NavText">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+</resources>

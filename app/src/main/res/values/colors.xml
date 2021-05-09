@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#3B72FF</color>
+    <color name="green">#50DE89</color>
+    <color name="yellow">#FFDA7A</color>
+    <color name="darkGreen">#A1ECBF</color>
+    <color name="bg_color">#f8f5f1</color>
+    <color name="grey">#444444</color>
+    <color name="red">#F91941</color>
+    <color name="orange">#ff8303</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#3B72FF</color>
+    <color name="lightBlue">#00B1FF</color>
+    <color name="text_color">#2b2e4a</color>
+    <color name="purple">#958ce8</color>
+    <color name="darkBlue">#002aff</color>
+
+    <color name="confirmed">#FFA726</color>
+    <color name="recovered">#66BB6A</color>
+    <color name="deaths">#EF5350</color>
+    <color name="active">#29B6F6</color>
+
+    <color name="text_nav">
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:color="#f9ca1c" android:state_checked="true"/>
+            <item android:color="@color/white"/>
+        </selector>
+    </color>
+
+</resources>

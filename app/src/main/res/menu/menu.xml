@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Oxygen"
+        android:id="@+id/oxygen"
+        android:icon="@drawable/oxygen" />
+
+    <item android:id="@+id/plasma"
+        android:icon="@drawable/blood_donation"
+        android:title="Plasma" />
+
+    <item android:id="@+id/food"
+        android:icon="@drawable/lunch"
+        android:title="Food" />
+
+    <item android:title="Beds"
+        android:icon="@drawable/hospital_bed"
+        android:id="@+id/hospital" />
+
+</menu>

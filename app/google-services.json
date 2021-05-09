@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "927493821156",
+    "project_id": "covihelp-d83e7",
+    "storage_bucket": "covihelp-d83e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927493821156:android:76d914afbf9107374592f1",
+        "android_client_info": {
+          "package_name": "com.heavycoders.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927493821156-jeubc3erccobjm13i6tjqr8vd7gsuhb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSkj0sxwHJcAg2AdbWJDL2HqkqXR6pyT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927493821156-jeubc3erccobjm13i6tjqr8vd7gsuhb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
