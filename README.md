@@ -22,9 +22,15 @@ No such platforms have ever been made which provide trusted statistics as well a
 1) Download the zip file by <a href="App-apk (1).zip">clicking here</a><br>
 2) Unzip the file downloaded
 </p>
+
 ### Dependencies
 <p>
- </p>
+1) Firebase Authentication(Version 20.0.4)<br>
+2) Firebase Database(Version 19.7.0)<br>
+3) Material Design(Version 1.3.0)<br>
+4) Lottie Animations(Version 3.7.0)<br>
+5) Volley Library(Version 1.1.0)<br>
+</p>
 
 ### Problem Solution💡:
 
@@ -67,4 +73,8 @@ We have also come up with a website that highlights the features of our Applicat
 - Emojipedia
 - Icon8
 - Codepen
+- Lottiefiles
+- Filmora
+- Times Now
+
 
