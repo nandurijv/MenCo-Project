@@ -16,6 +16,11 @@ No such platforms have ever been made which provide trusted statistics as well a
 
 </p>
 
+### Installation Instruction
+<p>
+Download the app by unzipping the file [App-apk.zip](here)
+</p>
+
 
 ### Problem Solution💡:
 
