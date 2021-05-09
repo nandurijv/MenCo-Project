@@ -21,7 +21,9 @@ No such platforms have ever been made which provide trusted statistics as well a
 <p>
 Download the app by unzipping the file [App-apk.zip](https://github.com/alok27a/MenCo-Project/files/6446870/App-apk.zip)
 </p>
-
+### Dependencies
+<p>
+ </p>
 
 ### Problem Solution💡:
 
@@ -51,10 +53,21 @@ We have also come up with a website that highlights the features of our Applicat
 - JavaScript
 
 ### Application Screenshots:
-
+<img src="https://media.discordapp.net/attachments/830729033653289001/840483308316131338/Screenshot_20210508-123002_MenCo.jpg?width=320&height=669" >
+<img src="https://media.discordapp.net/attachments/830729033653289001/840480148617035786/Screenshot_20210508-121516_MenCo.jpg?width=320&height=669">
+<img src="https://media.discordapp.net/attachments/830729033653289001/840480147978584074/Screenshot_20210508-121550_MenCo.jpg?width=320&height=669">
+<img src="https://media.discordapp.net/attachments/830729033653289001/840479982265434152/Screenshot_20210508-121627_MenCo.jpg?width=320&height=669">
+<img src="https://media.discordapp.net/attachments/830729033653289001/840480147626786826/Screenshot_20210508-121557_MenCo.jpg?width=320&height=669">
+<img src="https://media.discordapp.net/attachments/830729033653289001/840480147378667540/Screenshot_20210508-121611_MenCo.jpg?width=320&height=669">
 
 
 ### Conclusion 🔍:
 <p>
   
 </p>
+
+### Credits 💳:
+- Emojipedia
+- Icon8
+- Codepen
+
