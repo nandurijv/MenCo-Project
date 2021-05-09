@@ -17,7 +17,7 @@ No such platforms have ever been made which provide trusted statistics as well a
 
 </p>
 
-### Installation Instruction
+### Installation Instruction📥
 <p>
 Download the app by unzipping the file [App-apk.zip](https://github.com/alok27a/MenCo-Project/files/6446870/App-apk.zip)
 </p>
@@ -33,10 +33,13 @@ Download the app by unzipping the file [App-apk.zip](https://github.com/alok27a/
 
 
 
-
 ### Novelty📕:
 <p>
-  
+ Our Application welcomes the user with a new positive thought every time the user opens the application. Authenticating the user to access the features of the application. An option to become a volunteer will also be available which takes the details of the volunteer. For the people who are in need of resources will get the list of volunteers with their details. So that the person who is in need can contact the volunteer.
+And the novelty of our application is that it will only show the resources that are available in his own city.Once the volunteer is done with the help his name will be removed from the list and he can register again if he wants.
+For the purpose of entertainment our app suggests some of the good YouTube Channels and Instagram accounts which change everyday.
+We have also come up with a website that highlights the features of our Application
+
 </p>
 
 ### Tech Stack 📚:
@@ -47,10 +50,9 @@ Download the app by unzipping the file [App-apk.zip](https://github.com/alok27a/
 - CSS3
 - JavaScript
 
-### Additional Features🆕:
-<p>
+### Application Screenshots:
 
-</p>
+
 
 ### Conclusion 🔍:
 <p>
